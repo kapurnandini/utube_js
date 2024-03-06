@@ -1,9 +1,9 @@
 // const tinderUser = new Object() => singleton object
 //const tinderUser = {}  =>non -singleton object
 
-tinderUser.id = "123abc"
-tinderUser.name = "Sammy"
-tinderUser.isLoggedIn = false
+// tinderUser.id = "123abc"
+// tinderUser.name = "Sammy"
+// tinderUser.isLoggedIn = false
 
 // console.log(tinderUser);
 
@@ -61,18 +61,26 @@ const course = {
     courseInstructor: "hitesh"
 }
 
+
 // course.courseInstructor
 
+//object destructuring => to access objects values easily without using above old method
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
 console.log(instructor);
+
+//JSON Api => keys and values both should be string
+ 
+//1.
 
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
+
+//2.
 
 [
     {},
