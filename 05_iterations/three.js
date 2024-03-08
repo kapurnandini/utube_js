@@ -26,7 +26,7 @@ map.set('IN', "India")
 // console.log(map);
 //prints distinguish values for keys and values
 for (const [key, value] of map) {
-    // console.log(key, ':-', value);
+     console.log(key, ':-', value);
 }
 
 const myObject = {
